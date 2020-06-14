@@ -6,6 +6,11 @@
   <title>Frames</title>
 </head>
 <body>
-  <div>Hello you</div>
+  <div>
+    <form ref="uploadForm" id="uploadForm" method="POST" action="/upload" enctype="multipart/form-data">
+      <input type="file" name="video">
+      <button type="submit" value="upload">Upload</button>
+    </form>
+  </div>
 </body>
 </html>
